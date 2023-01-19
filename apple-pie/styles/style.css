@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  background-image: url(../image/apple-pie.JPG);
+  background-size: cover;
+  height: 550px;
+  display: flex;
+}
+.containner figure.avatar {
+  width: 10;
+  height: 10px;
+}
+h1 {
+  font-family: "Snell Roundhand", sans-serif;
+  margin-top: -150px;
+  margin-inline-start: 500px;
+  color: white;
+  font-size: 300px;
+  letter-spacing: 20px;
+}
+.fonteExterna {
+  font-family: "Snell Roundhand", sans-serif;
+  color: white;
+  font-size: 40px;
+  letter-spacing: 15px;
+}
+.text1 {
+  font-family: "Snell Roundhand", sans-serif;
+  color: white;
+  font-size: 45px;
+  padding: 25px 25%;
+  text-align: justify;
+  letter-spacing: 5px;
+}
+.imgText {
+  font-family: "Snell Roundhand", sans-serif;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+  margin: 10px auto;
+}
+.imgText img {
+  width: 800px;
+  height: 100px;
+}
+.ingredients {
+  font-family: "Snell Roundhand", sans-serif;
+  font-size: 40px;
+  color: white;
+  padding: 20px 25%;
+  letter-spacing: 4px;
+}
+.ingredients ul,
+.ingredients ol {
+  margin: 10px 20px;
+}
+.relogio {
+  font-family: "Snell Roundhand", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 200px;
+  width: 550px;
+  background: transparent;
+  border-radius: 3px;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+}
+.relogio div {
+  height: 170px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: rgba(5, 5, 5, 0.9);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+  border-radius: 7px;
+  letter-spacing: 3px;
+}
+.relogio span {
+  font-weight: bolder;
+  font-size: 100px;
+  letter-spacing: 10px;
+}
+.relogio span.tempo {
+  font-size: 30px;
+  letter-spacing: 8px;
+}
+footer {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  font-style: italic;
+  padding-top: 20px;
+}
