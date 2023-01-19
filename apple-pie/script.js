@@ -1,4 +1,5 @@
-let q = (el) => document.querySelector(el);
+let qs = (el) => document.querySelector(el);
+let qsa = (el) => document.querySelectorAll(el);
 let bid = (el) => document.getElementById(el);
 let w = (el) => document.write(el);
 let c = (...el) => console.log(...el);
